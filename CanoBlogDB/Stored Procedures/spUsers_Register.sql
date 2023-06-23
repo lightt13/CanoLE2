@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[spUsers_Register]
+﻿	CREATE PROCEDURE [dbo].[spUsers_Register]
 	@userName nvarchar(16),
 	@firstName nvarchar(50),
 	@lastName nvarchar(50),

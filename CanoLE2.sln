@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDataLibrary", "BlogDataLibrary\BlogDataLibrary.csproj", "{758DE0D8-B5CF-4455-814D-9273DD135B2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDataLibrary", "BlogDataLibrary\BlogDataLibrary.csproj", "{758DE0D8-B5CF-4455-814D-9273DD135B2B}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CanoBlogDB", "CanoBlogDB\CanoBlogDB.sqlproj", "{6D7837B9-1D43-43E2-952E-5C6CB6F229B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogTestUI", "BlogTestUI\BlogTestUI.csproj", "{ED4449B9-83D8-4FCD-8080-1F06EE94F959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogTestUI", "BlogTestUI\BlogTestUI.csproj", "{ED4449B9-83D8-4FCD-8080-1F06EE94F959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogAPI", "BlogAPI\BlogAPI.csproj", "{D5FB8D15-BA35-47B7-A150-593A732FD47C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{ED4449B9-83D8-4FCD-8080-1F06EE94F959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED4449B9-83D8-4FCD-8080-1F06EE94F959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED4449B9-83D8-4FCD-8080-1F06EE94F959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FB8D15-BA35-47B7-A150-593A732FD47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FB8D15-BA35-47B7-A150-593A732FD47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FB8D15-BA35-47B7-A150-593A732FD47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FB8D15-BA35-47B7-A150-593A732FD47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
